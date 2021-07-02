@@ -1,4 +1,61 @@
+title = "My New Hugo Site"
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
 theme = "ananke"
+resourceDir = "./resources"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "ABOUT US"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
+
+  [[menu.main]]
+    name = "ACCOMMIDATION"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/accommodation/"
+    weight = -100
+
+[languages]
+  [languages.en]
+    title = "QIAN DENG HOTEL"
+    weight = 1
+    contentDir = "content/en"
+  [languages.HAN]
+    title = "Mon blogue"
+    weight = 2
+    contentDir = "content/fr"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  site_logo = "/images/logo.jpg"
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = "https://twitter.com/GoHugoIO"
+  instagram = ""
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  background_color_class = "bg-black"
+  featured_image = "/images/bk.jpg"
+  recent_posts_number = 2
+  mainSections = ["posts"]
