@@ -1,5 +1,5 @@
 title = "My New Hugo Site"
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
 theme = "ananke"
 resourceDir = "./resources"
@@ -12,28 +12,29 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name = "ABOUT US"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/about/"
-    weight = -110
-
-  [[menu.main]]
     name = "ACCOMMIDATION"
     post = "<span class='alert'>New!</span>"
     pre = "<i class='fa fa-road'></i>"
     url = "/accommodation/"
     weight = -100
 
+  [[menu.main]]
+    identifier = "about"
+    name = "CONTACT"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
+
+
 [languages]
   [languages.en]
     title = "QIAN DENG HOTEL"
     weight = 1
     contentDir = "content/en"
-  [languages.HAN]
-    title = "Mon blogue"
+  [languages.zh]
+    title = "千灯酒店"
     weight = 2
-    contentDir = "content/fr"
+    contentDir = "content/zh"
 
 [sitemap]
   changefreq = "monthly"
@@ -42,7 +43,7 @@ enableRobotsTXT = true
 
 [params]
   favicon = ""
-  site_logo = "/images/logo.jpg"
+  site_logo = "/images/logo.png"
   description = "The last theme you'll ever need. Maybe."
   facebook = ""
   twitter = "https://twitter.com/GoHugoIO"
@@ -56,7 +57,7 @@ enableRobotsTXT = true
   stackoverflow = ""
   rss = ""
   background_color_class = "bg-black"
-  featured_image = "/images/bk.jpg"
+  featured_image = "/images/huayuan.jpg"
   recent_posts_number = 2
   mainSections = ["accommodation"]
   recent_copy = "ACCOUMENTS"

@@ -1,1 +1,1 @@
-ACC
+Give you best view from 200 rooms. Enjoy your relax journey.

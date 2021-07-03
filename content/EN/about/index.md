@@ -1,7 +1,10 @@
 ---
-title: "About"
-date: 2021-07-01T13:02:57Z
-draft: true
+title: TeL - 123456789
+# url: /about
+featured_image: '/images/hotel.jpg'
 ---
 
-About us
+Address: HONGKOU DADAO, Huangshan QU, Anhui
+
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QIAN DENG HOTEL</title>
+    <link>/</link>
+    <description>Recent content on QIAN DENG HOTEL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FAMILY ROOM</title>
+      <link>/accommodation/familyroom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/accommodation/familyroom/</guid>
+      <description>Best for Family with Kids Relax in your 35sqm (376sqf) room, a tranquil haven above the city’s frenetic hum. Pamper yourself with bespoke French amenities and awake refreshed after a night in either one sumptuous king size</description>
+    </item>
+    
+    <item>
+      <title>LUXURY ROOM</title>
+      <link>/accommodation/luxuryroom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/accommodation/luxuryroom/</guid>
+      <description>Your Dream Room Relax in your 35sqm (376sqf) room, a tranquil haven above the city’s frenetic hum. Pamper yourself with bespoke French amenities and awake refreshed after a night in either one sumptuous king size</description>
+    </item>
+    
+    <item>
+      <title>TeL - 123456789</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Address: HONGKOU DADAO, Huangshan QU, Anhui</description>
+    </item>
+    
+  </channel>
+</rss>
